@@ -21,4 +21,15 @@ Sorted sets - leaderboards :-)
 
 HyperLogLog - allows to estimate the number of elements we're gonna have.
 
+## Cluster / Replication
+Data Set doesn't fit in RAM - Redis Cluster
+
+Data Set fits in RAM, but you want high availability - Redis Sentinel
+
+## Pub / Sub
+You can, but do you want to? If you use streams, then you can have message confirmation.
+
+## Lua!
+Avoids back-and forth, and it's atomic.
+
 

@@ -10,3 +10,7 @@ Two modes of persistence:
 RDB - snapshot
 AOF - append-only file, log of actions
 
+## Data Structures
+Bloom filters - is this element in the set? -> probability
+
+

@@ -13,4 +13,12 @@ AOF - append-only file, log of actions
 ## Data Structures
 Bloom filters - is this element in the set? -> probability
 
+Hashes - key-values below the name, avoids race conditions.
+
+Sets - SADD, SCARD. Can do union, intersect, segmentation.
+
+Sorted sets - leaderboards :-)
+
+HyperLogLog - allows to estimate the number of elements we're gonna have.
+
 
